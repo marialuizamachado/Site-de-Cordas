@@ -1,0 +1,39 @@
+/* Item 5: Efeito Hover na Barra de Navegação Centralizada */
+.nav-hover {
+    transition: color 0.3s ease, font-weight 0.3s ease;
+    font-size: 1.1rem;
+    color: #333 !important;
+}
+
+.nav-hover:hover {
+    color: #8b0000 !important; /* Cor tom de madeira/vinho */
+    font-weight: bold;
+}
+
+/* Item 6: Barra horizontal em 100% da largura */
+.barra-horizontal {
+    width: 100%;
+    height: 6px;
+    background-color: #8b0000; /* Cor preferida */
+}
+
+/* Item 8: Hover nos links/botões dos Cartões */
+.btn-card-hover {
+    color: #8b0000;
+    text-decoration: none;
+    padding: 6px 12px;
+    border: 1px solid #8b0000;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.btn-card-hover:hover {
+    background-color: #8b0000;
+    color: #ffffff;
+}
+
+/* Item 10: Formulário com largura de 25% da área de conteúdo do container */
+.form-estilizado {
+    width: 25%;
+    min-width: 280px; /* Garante usabilidade e legibilidade em dispositivos móveis */
+}
